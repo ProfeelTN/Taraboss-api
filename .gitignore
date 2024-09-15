@@ -1,0 +1,59 @@
+# Java and Maven files
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated files
+target/
+out/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+application.properties
+application.yml
+*.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE specific files (for IntelliJ, Eclipse, NetBeans, etc.)
+# To ignore IDE-specific project settings, comment/uncomment as needed
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# AWS Credentials
+.aws/
